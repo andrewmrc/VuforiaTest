@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
+
 namespace Vuforia
 {
     /// <summary>
@@ -16,7 +17,12 @@ namespace Vuforia
     /// functionality in ImageTargetBehaviour to create and destroy Virtual Buttons
     /// at run-time.
     /// </summary>
+    /// 
+
     public class VirtualButtonBehaviour : VirtualButtonAbstractBehaviour
     {
+        
     }
+
+    
 }
