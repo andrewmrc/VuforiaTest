@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 27f8a35fe745c0c488bc7ac396741381
+timeCreated: 1497444859
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature 1
+    100004: bike
+    100006: BikeBody
+    100008: BikeChassis
+    100010: BikeGlass
+    100012: BikeInterior
+    100014: BikeLights
+    100016: BikeTires
+    100018: Camera
+    100020: handle_bar
+    100022: Lamp
+    100024: //RootNode
+    100026: root_ground
+    100028: shock_absorber_a_back
+    100030: shock_absorber_a_back_end
+    100032: shock_absorber_b_back
+    100034: shock_absorber_b_back_end
+    100036: shock_absorber_front
+    100038: swingarm_rear
+    100040: wheel_front
+    100042: wheel_front_end
+    100044: wheel_rear
+    100046: wheel_rear_end
+    400000: Armature
+    400002: Armature 1
+    400004: bike
+    400006: BikeBody
+    400008: BikeChassis
+    400010: BikeGlass
+    400012: BikeInterior
+    400014: BikeLights
+    400016: BikeTires
+    400018: Camera
+    400020: handle_bar
+    400022: Lamp
+    400024: //RootNode
+    400026: root_ground
+    400028: shock_absorber_a_back
+    400030: shock_absorber_a_back_end
+    400032: shock_absorber_b_back
+    400034: shock_absorber_b_back_end
+    400036: shock_absorber_front
+    400038: swingarm_rear
+    400040: wheel_front
+    400042: wheel_front_end
+    400044: wheel_rear
+    400046: wheel_rear_end
+    4300000: BikeChassis
+    4300002: BikeTires
+    4300004: BikeInterior
+    4300006: BikeLights
+    4300008: BikeBody
+    4300010: BikeGlass
+    9500000: //RootNode
+    13700000: BikeBody
+    13700002: BikeChassis
+    13700004: BikeGlass
+    13700006: BikeInterior
+    13700008: BikeLights
+    13700010: BikeTires
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
