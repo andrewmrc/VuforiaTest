@@ -366,7 +366,7 @@ namespace Lean
 		// This allows you to scale an object by a change in pinch scale
 		public static void ScaleObject(Transform transform, float scale)
 		{
-			if (transform != null && scale != 1.0f && scale >= 0.5f && scale <= 1.5f)
+			if (transform != null && scale != 1.0f)
 			{
 				transform.localScale *= scale;
 			}
