@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="aspirinaDettaglio" size="50.000000 18.803102" />
+    <ImageTarget name="aspirinaMOD" size="0.247000 0.139363" />
+    <ImageTarget name="aspirina" size="0.247000 0.152452" />
+    <ImageTarget name="farmaco2" size="0.247000 0.142466" />
+    <ImageTarget name="farmaco" size="0.247000 0.235737" />
+  </Tracking>
+</QCARConfig>
