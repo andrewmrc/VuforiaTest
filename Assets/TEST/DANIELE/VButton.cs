@@ -18,12 +18,12 @@ public class VButton : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonPressed(VirtualButtonAbstractBehaviour vb)
     {
-        sphere.material.color = Color.red;
+        sphere.material.color = Color.green;
     }
 
     public void OnButtonReleased(VirtualButtonAbstractBehaviour vb)
     {
-        sphere.material.color = Color.black;
+        sphere.material.color = Color.white;
     }
 
 }
