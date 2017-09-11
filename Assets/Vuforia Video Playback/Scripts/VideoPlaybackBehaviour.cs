@@ -325,7 +325,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
                     float aspect = videoHeight / (float)videoWidth;
 
                     // Flip the plane as the video texture is mirrored on the horizontal
-                    transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f * aspect);
+                    transform.localScale = new Vector3(-0.1f*4, 0.1f*4, 0.1f * aspect*4); // ho moltiplicato i valori di x,y,z per aumentarne la dimensione
                 }
 
                 // Seek ahead if necessary
@@ -440,8 +440,9 @@ public class VideoPlaybackBehaviour : MonoBehaviour
         const int numFramesToDelay = 10;
         for (int i = 0; i < numFramesToDelay; i++)
             yield return null;
-
-        GetComponent<Renderer>().material.mainTexture = mVideoTexture; GetComponent<Renderer>().material.mainTextureScale = new Vector2(1, 1);
+        Material mat = GetComponent<Renderer>().material;
+        mat.mainTexture = mVideoTexture;
+        mat.mainTextureScale = new Vector2(1, 1);
 
     }
 

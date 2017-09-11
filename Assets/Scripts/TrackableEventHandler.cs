@@ -79,6 +79,8 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
     #region PRIVATE_METHODS
     private void OnTrackingFound()
     {
+        this.GetComponent<SwitchElements>().enabledElements();
+
         Renderer[] rendererComponents = GetComponentsInChildren<Renderer>();
         Collider[] colliderComponents = GetComponentsInChildren<Collider>();
 
@@ -86,6 +88,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
         foreach (Renderer component in rendererComponents)
         {
             component.enabled = true;
+            
         }
 
         // Enable colliders:
@@ -133,6 +136,8 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 
     private void OnTrackingLost()
     {
+        this.GetComponent<SwitchElements>().returnElements();
+
         Renderer[] rendererComponents = GetComponentsInChildren<Renderer>();
         Collider[] colliderComponents = GetComponentsInChildren<Collider>();
 
@@ -140,6 +145,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
         //video.enabled = false;
 
         // Disable rendering:
+        
         foreach (Renderer component in rendererComponents)
         {
             component.enabled = false;
