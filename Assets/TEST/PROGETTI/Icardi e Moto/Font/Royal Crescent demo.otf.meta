@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 61d26bcbeb29181418ec3fcb63edf69d
+timeCreated: 1505227930
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Royal Crescent
+  fontNames:
+  - Royal Crescent
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

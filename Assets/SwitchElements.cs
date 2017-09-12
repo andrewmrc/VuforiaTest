@@ -66,5 +66,11 @@ public class SwitchElements : MonoBehaviour {
 
 
     }
+
+
+    public void OpenWebSite()
+    {
+        Application.OpenURL("http://www.itsreal.eu/");
+    }
     
 }

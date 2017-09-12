@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c07dddd0b26fd0e48adcec773f03abd0
+timeCreated: 1505227875
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Capsule X Pro Medium
+  fontNames:
+  - Capsule X Pro Medium
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
