@@ -6,8 +6,10 @@ public class SwitchElements : MonoBehaviour {
 
     public GameObject moto;
     public GameObject video;
-    public GameObject button;
+    public GameObject buttonMoto;
+    public GameObject buttonGioco;
     public GameObject buttonReturn;
+    public GameObject IcardiImage;
 
     public void enabledElements()
     {
@@ -24,8 +26,9 @@ public class SwitchElements : MonoBehaviour {
         video.layer = 1;
         video.SetActive(false);
         //attivo il pulsante che serve per attivare la moto
-        button.SetActive(true);
-        
+        buttonGioco.SetActive(true);
+        buttonMoto.SetActive(true);
+        IcardiImage.SetActive(true);
     }
 
     public void returnElements()
@@ -34,23 +37,34 @@ public class SwitchElements : MonoBehaviour {
         video.layer = 1;
         moto.SetActive(false);
         video.SetActive(true);
-        button.SetActive(false);
-        buttonReturn.SetActive(false);
+        buttonGioco.SetActive(false);
+        buttonMoto.SetActive(false);
+        IcardiImage.SetActive(false);
 
     }
 
     public void ButtonMoto()
     {
         moto.SetActive(true);
-        button.SetActive(false);
+
         buttonReturn.SetActive(true);
+
+        buttonGioco.SetActive(false);
+        buttonMoto.SetActive(false);
+        IcardiImage.SetActive(false);
     }
 
     public void ButtonReturn()
     {
         buttonReturn.SetActive(false);
         moto.SetActive(false);
-        button.SetActive(true);
+
+        buttonGioco.SetActive(true);
+        buttonMoto.SetActive(true);
+        IcardiImage.SetActive(true);
+
+
+
     }
     
 }
