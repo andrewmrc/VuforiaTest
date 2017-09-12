@@ -325,7 +325,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
                     float aspect = videoHeight / (float)videoWidth;
 
                     // Flip the plane as the video texture is mirrored on the horizontal
-                    transform.localScale = new Vector3(-0.1f*4, 0.1f*4, 0.1f * aspect*4); // ho moltiplicato i valori di x,y,z per aumentarne la dimensione
+                    transform.localScale = new Vector3(-0.1f*5, 0.1f*5, 0.1f * aspect*5); // ho moltiplicato i valori di x,y,z per aumentarne la dimensione
                 }
 
                 // Seek ahead if necessary
