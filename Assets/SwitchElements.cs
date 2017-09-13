@@ -40,6 +40,7 @@ public class SwitchElements : MonoBehaviour {
         buttonGioco.SetActive(false);
         buttonMoto.SetActive(false);
         IcardiImage.SetActive(false);
+        buttonReturn.SetActive(false);
 
     }
 
